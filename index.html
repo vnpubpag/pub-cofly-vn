@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COFLY | Scale Operations with AI-Driven Efficiency</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo" aria-label="COFLY Home">
+        <div class="nav-logo-icon" aria-hidden="true">C</div>
+        <span class="nav-logo-text">COFLY</span>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="nav-links" role="menubar">
+        <a href="#hero" class="active" role="menuitem">Overview</a>
+        <a href="#nowlog" role="menuitem">NowLog</a>
+        <a href="#tig" role="menuitem">TIG</a>
+        <a href="#morey" role="menuitem">Morey</a>
+      </div>
+
+      <a href="#contact" class="nav-cta">Book Demo</a>
+
+      <!-- Mobile hamburger -->
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="nav-mobile-menu" id="nav-mobile-menu" role="menu">
+      <a href="#hero" role="menuitem">Overview</a>
+      <a href="#nowlog" role="menuitem">NowLog</a>
+      <a href="#tig" role="menuitem">TIG</a>
+      <a href="#morey" role="menuitem">Morey</a>
+      <a href="#contact" class="nav-mobile-cta" role="menuitem">Book Demo</a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero">
+      <!-- Video background -->
+      <div class="hero-video-bg" aria-hidden="true">
+        <video
+          id="hero-video-1"
+          muted
+          playsinline
+          preload="auto"
+          class="active"
+        >
+          <source src="../videos/seedance1.5_hero_section_cofly_landing_page_1.mp4" type="video/mp4" />
+        </video>
+        <video
+          id="hero-video-2"
+          muted
+          playsinline
+          preload="auto"
+        >
+          <source src="../videos/seedance1.5_hero_section_cofly_landing_page_2.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-video-overlay"></div>
+      </div>
+
+      <!-- Hero content -->
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-logo-img" aria-hidden="true">C</div>
+
+          <h1>
+            Maximize ROI,<br />
+            <span class="gradient-text">minimize downtime</span>
+          </h1>
+
+          <p data-typewriter="Deploy AI-powered industrial intelligence to eliminate operational bottlenecks and drive measurable bottom-line growth."></p>
+
+          <a href="#contact" class="btn-primary">
+            Scale Operations
+            <span class="arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <!-- Dashboard card (desktop only) -->
+        <div class="hero-dashboard" aria-hidden="true">
+          <div class="dashboard-card hero-dash-card">
+            <div class="hero-dash-bg"></div>
+            <div class="hero-dash-item bl-primary">
+              <span class="dash-icon primary">analytics</span>
+              <div>
+                <p class="dash-label">Current State</p>
+                <p class="dash-value">Manual logging: 25% data loss</p>
+              </div>
+            </div>
+            <div class="hero-dash-item bl-teal">
+              <span class="dash-icon teal">query_stats</span>
+              <div>
+                <p class="dash-label">AI Optimization</p>
+                <p class="dash-value">Automated Reporting (100%)</p>
+                <p class="dash-gain">Performance Gain: +15%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NOWLOG SECTION ===== -->
+    <section id="nowlog">
+      <div class="section-content">
+        <div class="section-grid">
+          <!-- Text column -->
+          <div class="col-text">
+            <span class="section-tag tag-teal fade-up">Operational Accuracy</span>
+            <h3 class="section-heading fade-up delay-1">NowLog: Streamline Operations</h3>
+
+            <div class="feature-list">
+              <div class="feature-card dashboard-card fade-up delay-2">
+                <h4>Zero-Loss Capture</h4>
+                <p data-typewriter="Eliminate human error with real-time automated event logging across production lines."></p>
+              </div>
+              <div class="feature-card dashboard-card fade-up delay-3">
+                <h4>Voice-to-Execution</h4>
+                <p data-typewriter="Empower floor staff to document critical incidents hands-free, increasing reporting speed by 40%."></p>
+              </div>
+              <div class="feature-card dashboard-card fade-up delay-4">
+                <h4>AI Synthesis</h4>
+                <p data-typewriter="Condense 8 hours of data into actionable 2-minute executive summaries instantly."></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual column -->
+          <div class="col-visual fade-up delay-2">
+            <div class="visual-wrap dashboard-card log-stream-card">
+              <div class="grid-overlay" aria-hidden="true"></div>
+              <div class="log-stream-header">Live Event Stream</div>
+
+              <div class="log-stream" aria-label="Live system log entries">
+                <div class="log-entry bl-teal" data-delay="200">
+                  <span class="log-time">08:42:15</span>
+                  <span class="log-badge ok">OK</span>
+                  <span class="log-text">Line A — Cycle completed</span>
+                </div>
+                <div class="log-entry bl-warn" data-delay="500">
+                  <span class="log-time">08:42:18</span>
+                  <span class="log-badge warn">WARN</span>
+                  <span class="log-text">Sensor T04 — Threshold alert</span>
+                </div>
+                <div class="log-entry bl-teal" data-delay="800">
+                  <span class="log-time">08:42:21</span>
+                  <span class="log-badge ok">OK</span>
+                  <span class="log-text">Report generated — Auto-sync</span>
+                </div>
+                <div class="log-entry bl-primary" data-delay="1100">
+                  <span class="log-time">08:42:24</span>
+                  <span class="log-badge ai">AI</span>
+                  <span class="log-text">Summary dispatched to manager</span>
+                </div>
+                <div class="log-entry bl-teal" data-delay="1400">
+                  <span class="log-time">08:42:27</span>
+                  <span class="log-badge ok">OK</span>
+                  <span class="log-text">Uptime 99.98% — No interruptions</span>
+                </div>
+              </div>
+
+              <div class="log-stats">
+                <div class="log-stat">
+                  <div class="log-stat-val" style="color: var(--color-teal);">0%</div>
+                  <div class="log-stat-lbl">Data Loss</div>
+                </div>
+                <div class="log-stat">
+                  <div class="log-stat-val" style="color: var(--color-primary);">+40%</div>
+                  <div class="log-stat-lbl">Report Speed</div>
+                </div>
+                <div class="log-stat">
+                  <div class="log-stat-val" style="color: white;">2min</div>
+                  <div class="log-stat-lbl">AI Summary</div>
+                </div>
+              </div>
+
+              <div class="live-badge">
+                <span class="live-dot" aria-hidden="true"></span>
+                <span>Live System Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TIG SECTION ===== -->
+    <section id="tig">
+      <div class="section-content">
+        <div class="section-grid reverse">
+          <!-- Visual column -->
+          <div class="col-visual fade-up delay-2">
+            <div class="visual-wrap dashboard-card workflow-card">
+              <div class="workflow-header-bar">Workflow Simulation</div>
+
+              <div class="workflow-steps">
+                <div class="wf-step step-done">
+                  <div class="wf-indicator done" aria-label="Completed">✓</div>
+                  <div class="wf-info">
+                    <div class="wf-name">Scan QR Code</div>
+                    <div class="wf-meta">12ms · Auto</div>
+                  </div>
+                  <div class="wf-bar-wrap">
+                    <div class="wf-bar">
+                      <div class="wf-bar-fill done" style="--fill: 100%;"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wf-step step-done">
+                  <div class="wf-indicator done" aria-label="Completed">✓</div>
+                  <div class="wf-info">
+                    <div class="wf-name">Load SOP v4.2</div>
+                    <div class="wf-meta">45ms · Cache hit</div>
+                  </div>
+                  <div class="wf-bar-wrap">
+                    <div class="wf-bar">
+                      <div class="wf-bar-fill done" style="--fill: 100%;"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wf-step step-active">
+                  <div class="wf-indicator active" aria-label="In progress">▶</div>
+                  <div class="wf-info">
+                    <div class="wf-name">AI Overlay Active</div>
+                    <div class="wf-meta">Real-time guidance</div>
+                  </div>
+                  <div class="wf-bar-wrap">
+                    <div class="wf-bar">
+                      <div class="wf-bar-fill active" style="--fill: 65%;"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wf-step step-pending">
+                  <div class="wf-indicator pending" aria-label="Pending">○</div>
+                  <div class="wf-info">
+                    <div class="wf-name">Submit Report</div>
+                    <div class="wf-meta">Pending</div>
+                  </div>
+                  <div class="wf-bar-wrap">
+                    <div class="wf-bar">
+                      <div class="wf-bar-fill" style="--fill: 0%;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="workflow-footer">
+                <span class="wf-footer-label">Time Saved</span>
+                <span class="wf-footer-val">12h</span>
+                <span class="wf-footer-unit">/ operator / week</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text column -->
+          <div class="col-text">
+            <span class="section-tag tag-primary fade-up">Workflow Integration</span>
+            <h3 class="section-heading fade-up delay-1">TIG: Automate Precision</h3>
+
+            <div class="feature-list">
+              <div class="feature-card-icon dashboard-card fade-up delay-2" style="border: 1px solid rgba(255,255,255,0.08);">
+                <div class="icon-row">
+                  <span class="mat-icon primary" aria-hidden="true">cognition</span>
+                  <span class="icon-label">Task Automation</span>
+                </div>
+                <p class="icon-desc" data-typewriter="Identify and automate repetitive administrative tasks, saving up to 12 hours per week per operator."></p>
+              </div>
+              <div class="feature-card-icon dashboard-card fade-up delay-3" style="border: 1px solid rgba(255,255,255,0.08);">
+                <div class="icon-row">
+                  <span class="mat-icon teal" aria-hidden="true">network_intelligence</span>
+                  <span class="icon-label">In-Situ Support</span>
+                </div>
+                <p class="icon-desc" data-typewriter="Real-time guidance integrated directly into existing legacy software to minimize training costs."></p>
+              </div>
+              <div class="feature-card-icon dashboard-card fade-up delay-4" style="border: 1px solid rgba(255,255,255,0.08);">
+                <div class="icon-row">
+                  <span class="mat-icon blue" aria-hidden="true">center_focus_strong</span>
+                  <span class="icon-label">Precision Guidance</span>
+                </div>
+                <p class="icon-desc" data-typewriter="Dynamic overlays ensure complex procedures are followed perfectly every time, reducing error rates."></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MOREY SECTION ===== -->
+    <section id="morey">
+      <div class="section-content">
+        <div class="section-grid">
+          <!-- Text column -->
+          <div class="col-text">
+            <span class="section-tag tag-teal fade-up">Strategic Insights</span>
+            <h3 class="section-heading fade-up delay-1">Morey: Deploy Intelligence</h3>
+            <p class="section-desc fade-up delay-2" data-typewriter="Convert massive industrial datasets into clear, strategic roadmaps for business growth."></p>
+
+            <div class="morey-list">
+              <div class="morey-item dashboard-card fade-up delay-2">
+                <span class="morey-num" style="color: var(--color-primary);">01</span>
+                <div>
+                  <h5>Network Topology Analysis</h5>
+                  <p>Map complex industrial dependencies.</p>
+                </div>
+              </div>
+              <div class="morey-item dashboard-card fade-up delay-3">
+                <span class="morey-num" style="color: var(--color-teal);">02</span>
+                <div>
+                  <h5>Compliance &amp; Standards</h5>
+                  <p>Technical domain-specific models.</p>
+                </div>
+              </div>
+              <div class="morey-item dashboard-card fade-up delay-4">
+                <span class="morey-num" style="color: #60a5fa;">03</span>
+                <div>
+                  <h5>Rapid Deployment Systems</h5>
+                  <p>AI-generated custom interfaces.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Network visual -->
+          <div class="col-visual fade-up delay-3">
+            <div class="visual-wrap dashboard-card network-card">
+              <div class="grid-overlay" aria-hidden="true"></div>
+
+              <svg class="network-svg" viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" aria-label="Network topology diagram" role="img">
+                <!-- Connection lines -->
+                <line x1="200" y1="160" x2="90" y2="70" stroke="rgba(0,123,255,0.35)" stroke-width="1.5" stroke-dasharray="5 4">
+                  <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2s" repeatCount="indefinite"/>
+                </line>
+                <line x1="200" y1="160" x2="310" y2="70" stroke="rgba(0,255,255,0.35)" stroke-width="1.5" stroke-dasharray="5 4">
+                  <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2.4s" repeatCount="indefinite"/>
+                </line>
+                <line x1="200" y1="160" x2="60" y2="240" stroke="rgba(0,123,255,0.2)" stroke-width="1" stroke-dasharray="4 5">
+                  <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="3s" repeatCount="indefinite"/>
+                </line>
+                <line x1="200" y1="160" x2="340" y2="240" stroke="rgba(0,255,255,0.2)" stroke-width="1" stroke-dasharray="4 5">
+                  <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="2.8s" repeatCount="indefinite"/>
+                </line>
+                <line x1="200" y1="160" x2="200" y2="290" stroke="rgba(0,123,255,0.2)" stroke-width="1" stroke-dasharray="4 5">
+                  <animate attributeName="stroke-dashoffset" from="0" to="-18" dur="3.5s" repeatCount="indefinite"/>
+                </line>
+
+                <!-- Central node pulse ring -->
+                <circle cx="200" cy="160" r="28" fill="none" stroke="rgba(0,123,255,0.2)" stroke-width="1">
+                  <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite"/>
+                  <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+                </circle>
+                <!-- Central node -->
+                <circle cx="200" cy="160" r="20" fill="rgba(0,123,255,0.2)" stroke="#007BFF" stroke-width="2">
+                  <animate attributeName="r" values="20;22;20" dur="3s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="200" cy="160" r="8" fill="#007BFF">
+                  <animate attributeName="opacity" values="1;0.65;1" dur="2s" repeatCount="indefinite"/>
+                </circle>
+
+                <!-- Satellite node 1 (top-left) -->
+                <circle cx="90" cy="70" r="14" fill="rgba(0,255,255,0.12)" stroke="#00FFFF" stroke-width="1.5"/>
+                <circle cx="90" cy="70" r="6" fill="#00FFFF" opacity="0.85"/>
+
+                <!-- Satellite node 2 (top-right) -->
+                <circle cx="310" cy="70" r="14" fill="rgba(0,255,255,0.12)" stroke="#00FFFF" stroke-width="1.5"/>
+                <circle cx="310" cy="70" r="6" fill="#00FFFF" opacity="0.85"/>
+
+                <!-- Satellite node 3 (bottom-left) -->
+                <circle cx="60" cy="240" r="11" fill="rgba(0,123,255,0.1)" stroke="rgba(0,123,255,0.5)" stroke-width="1.5"/>
+                <circle cx="60" cy="240" r="4" fill="rgba(0,123,255,0.8)"/>
+
+                <!-- Satellite node 4 (bottom-right) -->
+                <circle cx="340" cy="240" r="11" fill="rgba(0,123,255,0.1)" stroke="rgba(0,123,255,0.5)" stroke-width="1.5"/>
+                <circle cx="340" cy="240" r="4" fill="rgba(0,123,255,0.8)"/>
+
+                <!-- Satellite node 5 (bottom-center) -->
+                <circle cx="200" cy="290" r="11" fill="rgba(0,123,255,0.1)" stroke="rgba(0,123,255,0.5)" stroke-width="1.5"/>
+                <circle cx="200" cy="290" r="4" fill="rgba(0,123,255,0.8)"/>
+
+                <!-- Labels -->
+                <text x="200" y="135" text-anchor="middle" fill="white" font-size="9" font-family="Montserrat, sans-serif" font-weight="700">FACILITY-ALPHA</text>
+                <text x="90" y="50" text-anchor="middle" fill="#00FFFF" font-size="8" font-family="Montserrat, sans-serif" font-weight="600">NowLog</text>
+                <text x="310" y="50" text-anchor="middle" fill="#00FFFF" font-size="8" font-family="Montserrat, sans-serif" font-weight="600">TIG</text>
+                <text x="60" y="265" text-anchor="middle" fill="rgba(0,123,255,0.7)" font-size="7" font-family="Montserrat, sans-serif">Node-03</text>
+                <text x="340" y="265" text-anchor="middle" fill="rgba(0,123,255,0.7)" font-size="7" font-family="Montserrat, sans-serif">Node-04</text>
+                <text x="200" y="310" text-anchor="middle" fill="rgba(0,123,255,0.7)" font-size="7" font-family="Montserrat, sans-serif">Node-05</text>
+              </svg>
+
+              <div class="bottom-badge">
+                <span>Node: Facility-Alpha-Prime</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER / CONTACT ===== -->
+  <footer id="contact">
+    <div class="section-content">
+      <div class="dashboard-card contact-card fade-up">
+        <!-- Form side -->
+        <div class="contact-form-side">
+          <h2>Request an Audit</h2>
+          <p>Discover how our AI solutions deliver impact to your specific business operations.</p>
+
+          <form action="#" method="post" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Full Name</label>
+                <input type="text" id="contact-name" name="name" placeholder="Enter name" autocomplete="name" required />
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Business Email</label>
+                <input type="email" id="contact-email" name="email" placeholder="work@company.com" autocomplete="email" required />
+              </div>
+            </div>
+
+            <div class="form-group form-single">
+              <label for="contact-challenge">Operational Challenge</label>
+              <textarea id="contact-challenge" name="challenge" placeholder="Describe your current bottlenecks" rows="2" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit" aria-label="Submit audit request">
+              Get Strategic Overview
+              <span class="mat-icon" aria-hidden="true">trending_flat</span>
+            </button>
+          </form>
+
+          <div class="contact-footer-links">
+            <a href="#" aria-label="COFLY on LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="COFLY Insights">Insights</a>
+          </div>
+        </div>
+
+        <!-- Visual side (desktop only) -->
+        <div class="contact-visual-side" aria-hidden="true">
+          <div class="contact-visual-overlay"></div>
+          <div class="contact-visual-text">
+            <span class="result-label">Results Delivered</span>
+            <p>
+              Empowering the next generation of
+              <strong>high-yield industries.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
