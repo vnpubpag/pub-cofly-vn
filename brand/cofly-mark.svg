@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dấu hiệu trong logo Cofly, cắt sát khung. Hình lấy từ cofly-icon.svg, màu lấy từ cofly-logo.svg. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="50.2" viewBox="64 208 32 50.2">
+  <path fill="#0e9aa7" d="M 64.013303,223.14658 96,208 92.288619,216.89186 70.332056,227.2864 70.297947,258.16125 64,251.17981" />
+  <path fill="#0e9aa7" d="m 73.278147,229.17794 14.226343,-6.71882 -14.235643,27.12025 0.02418,-13.392 z" />
+</svg>
