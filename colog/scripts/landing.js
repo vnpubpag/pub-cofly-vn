@@ -69,17 +69,19 @@
   /* ------------------------------------------
      2. Chữ tự gõ trong ô hỏi AI
      HTML đã có sẵn câu đầu tiên, nên tắt JS hoặc giảm chuyển động thì ô hỏi vẫn có chữ.
+     Các câu nằm ở data-phrases theo ngôn ngữ của trang (src/src/i18n/colog/).
      ------------------------------------------ */
   (function initTypingAnimation() {
     var el = document.querySelector(".lp-agent__typing");
     if (!el || reducedMotion) return;
 
-    var phrases = [
-      "Ca đêm qua có sự cố nào chưa xử lý không?",
-      "Tóm tắt log vận hành tuần này theo từng ca",
-      "Nhân viên nào chưa nộp báo cáo hôm nay?",
-      "So sánh số lượng sự cố tháng này với tháng trước",
-    ];
+    var phrases;
+    try {
+      phrases = JSON.parse(el.getAttribute("data-phrases") || "[]");
+    } catch (e) {
+      return;
+    }
+    if (!Array.isArray(phrases) || phrases.length < 2) return;
 
     var TYPE_SPEED = 45;
     var DELETE_SPEED = 25;
